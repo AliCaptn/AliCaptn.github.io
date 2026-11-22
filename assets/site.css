@@ -504,7 +504,7 @@ body{background:#D8E9FF}
 .sec.tight{padding:84px 0}
 .sec-head.c{margin-left:auto;margin-right:auto;text-align:center}.sec-head.c p{margin-left:auto;margin-right:auto}
 .sec-head h2{font-size:clamp(1.8rem,3.4vw,2.7rem)}
-.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;align-items:start}
+.cols2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;align-items:start}
 .g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px}
 .g4{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
 .pcard{background:rgba(255,255,255,.8);border:1px solid rgba(23,105,210,.16);border-radius:20px;padding:26px 26px 28px;backdrop-filter:blur(6px);transition:transform .3s var(--ease),box-shadow .3s}
@@ -552,11 +552,11 @@ a.pcard:hover{transform:translateY(-5px);box-shadow:0 24px 50px -26px rgba(23,10
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .form-err{margin:0;padding:14px 16px;border-radius:12px;background:#FDECEC;color:#8A1F1F;font-size:.95rem;border:1px solid #F4B8B8}
 .form-err a{color:#8A1F1F;font-weight:700}
-.rv{opacity:0;transform:translateY(14px);transition:opacity .6s var(--ease),transform .6s var(--ease)}.rv.in{opacity:1;transform:none}
+.rq{opacity:0;transform:translateY(14px);transition:opacity .6s var(--ease),transform .6s var(--ease)}.rq.in{opacity:1;transform:none}
 .explore{padding:84px 0 100px}
-@media(max-width:900px){.g2{grid-template-columns:1fr;gap:32px}.steps{grid-template-columns:1fr 1fr}.phero{padding-top:128px}}
+@media(max-width:900px){.cols2{grid-template-columns:1fr;gap:32px}.steps{grid-template-columns:1fr 1fr}.phero{padding-top:128px}}
 @media(max-width:560px){.steps{grid-template-columns:1fr}.sec{padding:76px 0}}
-@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+@media(prefers-reduced-motion:reduce){.rq{opacity:1;transform:none;transition:none}}
 .sro{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .cta h1{font-size:clamp(2.2rem,4.4vw,3.6rem);font-weight:800;letter-spacing:-.035em}
 .cta.cta-page{margin-top:0;clip-path:none;padding-top:110px}

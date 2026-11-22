@@ -13,7 +13,7 @@ if(tb)tb.addEventListener('click',function(){window.scrollTo({top:0,behavior:red
 /* quiet reveal for cards */
 if('IntersectionObserver' in window&&!reduce){
   var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
-  $$('[data-rv]').forEach(function(el){el.classList.add('rv');io.observe(el)});
+  $$('[data-rv]').forEach(function(el){el.classList.add('rq');io.observe(el)});
 }
 /* open chat from any button */
 $$('[data-open-chat]').forEach(function(b){b.addEventListener('click',function(){if(window.ARChat)window.ARChat.open(true)})});
