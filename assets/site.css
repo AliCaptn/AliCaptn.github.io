@@ -320,7 +320,7 @@ footer ul a:hover{transform:translateX(8px);color:var(--cyan)}
 .ly{position:absolute;pointer-events:none;translate:0 0;animation:lyin 1.2s var(--ease) var(--dl) backwards;transform:translate3d(calc(var(--nx,0)*var(--px,0px)),calc(var(--ny,0)*var(--py,0px)),0)}
 .fl{animation:bob 7s ease-in-out infinite}
 .fl.f2{animation-duration:9s;animation-delay:-3s}.fl.f3{animation-duration:6s;animation-delay:-1.5s}
-.l1{left:0;top:0;width:56%}.l2{left:2%;top:47%;width:42%}
+.l1{left:0;top:0;width:56%}.l2{left:5%;top:45%;width:56%}
 .l3{left:46%;top:2%}.l4{right:2%;top:26%}.l5{left:30%;bottom:6%}
 .gl{margin:0;border-radius:16px;overflow:hidden;border:1.5px solid transparent;background:linear-gradient(#0E1930,#0E1930) padding-box,conic-gradient(from var(--a),#16B8C4,#1769D2,#7C5CFF,#16B8C4) border-box;box-shadow:0 36px 70px -24px rgba(0,0,0,.75),0 0 48px -12px rgba(22,184,196,.45);animation:spin 7s linear infinite;transform:perspective(1100px) rotateY(calc(13deg + var(--nx,0)*-7deg)) rotateX(calc(4deg + var(--ny,0)*5deg))}
 .gl.g2{transform:perspective(1100px) rotateY(calc(-9deg + var(--nx,0)*-7deg)) rotateX(calc(3deg + var(--ny,0)*5deg));animation-duration:9s}
@@ -408,7 +408,7 @@ footer ul a:hover{transform:translateX(8px);color:var(--cyan)}
 
 @media (max-width:1020px){
   .stage{height:480px}
-  .l1{width:62%}.l2{top:50%;width:46%}.l3{left:60%;top:0}.l4{right:0;top:22%}.l5{left:50%;bottom:4%}
+  .l1{width:62%}.l2{top:50%;width:58%}.l3{left:60%;top:0}.l4{right:0;top:22%}.l5{left:50%;bottom:4%}
   .caption{left:4%}
   .js .proc::before{transform:scaleY(0);transform-origin:top}
   .js .proc.in::before{transform:none}
