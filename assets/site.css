@@ -405,7 +405,7 @@ footer ul a:hover{transform:translateX(8px);color:var(--cyan)}
 .fb a{transition:color .2s}
 .soc{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.25);margin-top:18px;color:#fff;transition:transform .4s var(--ease),background .3s,border-color .3s}
 .soc:hover{transform:rotate(360deg) scale(1.1);background:var(--blue);border-color:var(--blue)}
-.soc svg{width:18px;height:18px}
+.soc svg{width:18px;height:18px}.socs{display:flex;gap:10px;flex-wrap:wrap}.socs .soc{margin-top:18px}.sl{font:800 13px/1 Manrope,sans-serif;letter-spacing:-.02em}
 
 @media (max-width:1020px){
   .stage{height:480px}
