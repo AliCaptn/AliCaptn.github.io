@@ -8,7 +8,7 @@
 - Contact email: arbiconsultings@gmail.com
 - WhatsApp: +92 310 2521471
 - LinkedIn: https://www.linkedin.com/in/ali-raza-7b95171b9/
-- Website: https://alicaptn.github.io/
+- Website: https://arbiconsulting.github.io/
 
 ## Services
 - Power BI Dashboard Development: Interactive dashboards that bring sales, finance and operations into one place, built around the questions your team asks every week.
@@ -29,23 +29,23 @@ Discover, Analyze, Design, Develop, Deliver.
 Finance and banking, sales and marketing, education, healthcare, retail and e-commerce, operations and management.
 
 ## Pages
-- [Home](https://alicaptn.github.io/)
-- [About us](https://alicaptn.github.io/about/)
-- [Services overview](https://alicaptn.github.io/services/)
-- [Portfolio](https://alicaptn.github.io/portfolio/)
-- [Why choose us](https://alicaptn.github.io/why-choose-us/)
-- [FAQ](https://alicaptn.github.io/faq/)
-- [Automated receptionist](https://alicaptn.github.io/automated-receptionist/)
-- [Contact](https://alicaptn.github.io/contact/)
+- [Home](https://arbiconsulting.github.io/)
+- [About us](https://arbiconsulting.github.io/about/)
+- [Services overview](https://arbiconsulting.github.io/services/)
+- [Portfolio](https://arbiconsulting.github.io/portfolio/)
+- [Why choose us](https://arbiconsulting.github.io/why-choose-us/)
+- [FAQ](https://arbiconsulting.github.io/faq/)
+- [Automated receptionist](https://arbiconsulting.github.io/automated-receptionist/)
+- [Contact](https://arbiconsulting.github.io/contact/)
 
 ## Services
-- [Power BI Dashboard Development](https://alicaptn.github.io/services/power-bi-dashboard-development/): Interactive dashboards that bring sales, finance and operations into one place, built around the questions your team asks every week.
-- [Advanced DAX Development](https://alicaptn.github.io/services/dax-development-services/): Custom measures for the metrics standard visuals cannot produce: year-over-year change, running totals, ratios, rankings and time intelligence.
-- [SQL Development & Database Reporting](https://alicaptn.github.io/services/sql-development-reporting/): Clean, efficient queries, views and stored procedures that turn your databases into dependable reporting sources.
-- [Microsoft Excel Dashboard Development](https://alicaptn.github.io/services/excel-dashboard-development/): Interactive Excel dashboards using formulas, pivots and slicers for teams who prefer to stay in the tool they know.
-- [Power Query & Data Transformation](https://alicaptn.github.io/services/power-query-data-transformation/): Repeatable data preparation that cleans, merges and reshapes messy files and exports, so no one fixes the same spreadsheet by hand twice.
-- [Data Modeling & Semantic Models](https://alicaptn.github.io/services/data-modeling-semantic-models/): Star-schema models and shared semantic layers, so every report uses the same definitions for revenue, customers and cost.
-- [Business Intelligence Consulting](https://alicaptn.github.io/services/business-intelligence-consulting/): Practical advice on reporting strategy, KPI selection and tooling, plus review of what you already have.
-- [Dashboard Optimization & Performance Tuning](https://alicaptn.github.io/services/dashboard-optimization-performance-tuning/): We diagnose slow reports and speed them up by tuning model size, calculations, queries and visuals.
-- [Automated Business Reporting](https://alicaptn.github.io/services/automated-business-reporting/): Scheduled refreshes and report delivery, so weekly and monthly packs build themselves.
-- [KPI & Executive Reporting Solutions](https://alicaptn.github.io/services/kpi-executive-reporting/): Concise executive views that show what is on track and what needs attention, without a wall of charts.
+- [Power BI Dashboard Development](https://arbiconsulting.github.io/services/power-bi-dashboard-development/): Interactive dashboards that bring sales, finance and operations into one place, built around the questions your team asks every week.
+- [Advanced DAX Development](https://arbiconsulting.github.io/services/dax-development-services/): Custom measures for the metrics standard visuals cannot produce: year-over-year change, running totals, ratios, rankings and time intelligence.
+- [SQL Development & Database Reporting](https://arbiconsulting.github.io/services/sql-development-reporting/): Clean, efficient queries, views and stored procedures that turn your databases into dependable reporting sources.
+- [Microsoft Excel Dashboard Development](https://arbiconsulting.github.io/services/excel-dashboard-development/): Interactive Excel dashboards using formulas, pivots and slicers for teams who prefer to stay in the tool they know.
+- [Power Query & Data Transformation](https://arbiconsulting.github.io/services/power-query-data-transformation/): Repeatable data preparation that cleans, merges and reshapes messy files and exports, so no one fixes the same spreadsheet by hand twice.
+- [Data Modeling & Semantic Models](https://arbiconsulting.github.io/services/data-modeling-semantic-models/): Star-schema models and shared semantic layers, so every report uses the same definitions for revenue, customers and cost.
+- [Business Intelligence Consulting](https://arbiconsulting.github.io/services/business-intelligence-consulting/): Practical advice on reporting strategy, KPI selection and tooling, plus review of what you already have.
+- [Dashboard Optimization & Performance Tuning](https://arbiconsulting.github.io/services/dashboard-optimization-performance-tuning/): We diagnose slow reports and speed them up by tuning model size, calculations, queries and visuals.
+- [Automated Business Reporting](https://arbiconsulting.github.io/services/automated-business-reporting/): Scheduled refreshes and report delivery, so weekly and monthly packs build themselves.
+- [KPI & Executive Reporting Solutions](https://arbiconsulting.github.io/services/kpi-executive-reporting/): Concise executive views that show what is on track and what needs attention, without a wall of charts.
