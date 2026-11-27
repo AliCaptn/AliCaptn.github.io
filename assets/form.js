@@ -4,6 +4,8 @@ var form=document.getElementById('form');if(!form)return;
 var $=function(s){return document.querySelector(s)};
 var done=$('#done'),err=$('#formErr'),sel=document.getElementById('service'),btn=form.querySelector('button[type=submit]');
 var L=window.ARL||{};
+/* Paste your free Web3Forms access key between the quotes to make the form work on GitHub Pages. Leave empty to use contact.php (PHP hosting). */
+var W3F_KEY='f3d78f19-bcd3-47a7-9805-8f789e9a7882';
 /* fill service list when the page has not done it already */
 if(sel&&sel.options.length<2&&L.svcNames){L.svcNames.forEach(function(n){var o=document.createElement('option');o.textContent=n;sel.appendChild(o)})}
 /* ?service=slug preselects the service */
@@ -20,8 +22,10 @@ form.addEventListener('submit',function(e){
   if(bad){var first=form.querySelector('.invalid input,.invalid select,.invalid textarea');if(first)first.focus();return}
   var label=btn.textContent;btn.disabled=true;btn.textContent='Sending...';
   var ctrl=window.AbortController?new AbortController():null,t=setTimeout(function(){if(ctrl)ctrl.abort()},15000);
-  fetch(L.contactPhp||'/contact.php',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'},signal:ctrl?ctrl.signal:undefined})
-   .then(function(r){return r.json().then(function(j){return {ok:r.ok&&j&&j.ok,j:j}})})
+  var fd=new FormData(form),url=L.contactPhp||'/contact.php';
+  if(W3F_KEY){url='https://api.web3forms.com/submit';fd.append('access_key',W3F_KEY);fd.append('subject','New inquiry from AR BI Consulting website: '+f.service.value);fd.append('from_name','AR BI Consulting website');fd.append('message',f.details.value)}
+  fetch(url,{method:'POST',body:fd,headers:{'Accept':'application/json'},signal:ctrl?ctrl.signal:undefined})
+   .then(function(r){return r.json().then(function(j){return {ok:r.ok&&j&&(j.ok||j.success),j:j}})})
    .then(function(x){
      if(!x.ok)throw new Error((x.j&&x.j.error)||'failed');
      $('#doneH').textContent='Thank you, '+f.name.value.trim().split(' ')[0]+'. Inquiry received.';
